@@ -1,0 +1,130 @@
+* {
+  margin : 0px;
+  padding: 0px;
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+/* Zona de Campo */
+div#body {
+  margin:auto ;
+  margin-top: 60px;
+  width:600px ;
+  height: 406px;
+  background-color: #52BE80 ;
+  border: 3px solid white;
+  position: relative;
+
+}
+
+/* Cancha de Juego */
+div#rectangulo1{
+
+  margin:auto ;
+  width:572px ;
+  height: 370px;
+  background-color: #52BE80 ;
+  position:absolute;
+  top: -14px;
+  bottom: -15px;
+  right: -11px;
+  left: -10px;
+  border: 3px solid white;
+
+
+}
+
+/* Zona de Arco Izquierdo */
+div#rectangulo2{
+  margin:auto ;
+  width:72px ;
+  height: 140px;
+  background-color: #52BE80 ;
+  position:absolute;
+  top: -40px;
+  bottom: -50px;
+  right: -50px;
+  left: -550px;
+  border: 3px solid white;
+}
+
+/* Zona de Arco Derecho */
+div#rectangulo3{
+  margin:auto ;
+  width:72px ;
+  height: 140px;
+  background-color: #52BE80 ;
+  position:absolute;
+  top: -40px;
+  bottom: -50px;
+  right: -550px;
+  left: -50px;
+  border: 3px solid white;
+}
+
+
+/* Centro de Cancha - Círculo */
+div#circulo1{
+  margin:auto ;
+  width: 140px;
+  height: 140px;
+  position:absolute;
+  top: -60px;
+  bottom: -80px;
+  right: -10px;
+  left: -10px;
+  background: #52BE80;
+  border-radius: 70px;
+  border: 3px solid white;
+}
+
+/* Jugador Nro 1 */
+div#circulo2{
+  margin: auto;
+  width:4px;
+  height: 4px;
+  position:absolute;
+  top: -122px;
+  bottom: -14px;
+  right: -52px;
+  left: -480px;
+  background: white;
+  border-radius: 2px;
+  border: 3px solid white;
+}
+
+
+/* Jugador Nro 2 */
+div#circulo3{
+  margin: auto;
+  width:4px;
+  height: 4px;
+  position:absolute;
+  top: -290px;
+  bottom: -80px;
+  right: -45px;
+  left: -10px;
+  background: white;
+  border-radius: 2px;
+  border: 3px solid white;
+}
+
+
+/* Jugador Nro 3 */
+div#circulo4{
+  margin: auto;
+  width:4px;
+  height: 4px;
+  position:absolute;
+  top: -20px;
+  bottom: -154px;
+  right: -410px;
+  left: -5px;
+  background: white;
+  border-radius: 2px;
+  border: 3px solid white;
+}
